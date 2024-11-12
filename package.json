@@ -1,0 +1,34 @@
+{
+  "name": "react-native-globe",
+  "version": "1.0.3",
+  "main": "src/Globe.js",
+  "scripts": {
+    "start": "react-native start",
+    "postinstall": "npm install react-native-gesture-handler react-native-reanimated react-native-screens && echo 'Installation Complete! Please make sure you have all required dependencies.'"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "react-native-web": "^0.18.10",
+    "three": "^0.153.0",
+    "typescript": "^5.6.3",
+    "react-native-gesture-handler": "^2.10.0",
+    "react-native-reanimated": "^2.14.4",
+    "react-native-screens": "^3.18.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.63.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.152.0", 
+    "@types/tween.js": "^18.6.4",
+    "@types/react-native": "^0.66.0"
+  },
+  "keywords": [
+    "react-native",
+    "three.js",
+    "globe"
+  ],
+  "author": "",
+  "license": "MIT"
+}
